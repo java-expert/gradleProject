@@ -20,4 +20,17 @@ jar {
     version =  '0.1.0'
 }
 
+apply plugin: 'application'
+
+mainClassName = 'main.java.hello.Test'
+
+task sampletask << {
+	println 'task execution written in groovy'}
+	
+task first<< {
+println 'first, '}
+
+task world(dependsOn:first) << {
+println 'second'}
+
 
