@@ -13,7 +13,7 @@ public class Test {
   }
 }
 
-
+//make jar of your project
 /*jar {
     baseName = 'gs-gradle'
     version =  '0.1.0'
